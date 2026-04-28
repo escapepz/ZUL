@@ -1,5 +1,13 @@
 
+v1.2.2
+- revert the mod.info name and desc
+- 
+
 v1.2.1
+- add support for 42.15.0
+- workshop image 512x512
+
+https://github.com/escapepz/zul/releases/tag/v1.2.1
 
 v1.2.0
 

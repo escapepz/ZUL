@@ -1,11 +1,8 @@
-author=escapepz
-
 id=zul
 name=ZUL - Zomboid Unified Logging
 description=A unified logging framework for Project Zomboid mods with multi-level logging support, child loggers, and configurable sandbox options.
-
+author=escapepz
+modversion=1.2.1
 poster=poster.png
 icon=icon.png
-
-modversion=1.2.1
 versionMin=42.13.1

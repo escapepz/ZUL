@@ -1,30 +1,31 @@
 {
-    "$schema": "https://raw.githubusercontent.com/escapepz/project-zomboid-studio/refs/heads/b42.13.1/pzstudio.schema.json",
+  "$schema": "https://raw.githubusercontent.com/escapepz/project-zomboid-studio/refs/heads/42.17.0/pzstudio.schema.json",
+  "workshop": {
     "title": "ZUL - Zomboid Unified Logging",
-    "authors": ["eScape"],
-    "workshop": {
-        "id": 3653948326,
-        "visibility": "public",
-        "tags": ["Build 42", "Framework", "Misc", "QoL"],
-        "excludes": ["zul_test", "zul_test_guardrails", "zul_test_performance"]
+    "id": 3653948326,
+    "visibility": "public",
+    "tags": ["Build 42", "Framework", "Misc", "QoL"]
+  },
+  "excludes": ["zul_test", "zul_test_guardrails", "zul_test_performance"],
+  "mods": {
+    "zul": {
+      "author": "escapepz",
+      "name": "ZUL - Zomboid Unified Logging",
+      "description": "A unified logging framework for Project Zomboid mods with multi-level logging support, child loggers, and configurable sandbox options.",
+      "modversion": "1.2.1",
+      "versionMin": "42.13.1"
     },
-    "mods": {
-        "zul": {
-            "name": "ZUL - Zomboid Unified Logging",
-            "description": "A unified logging framework for Project Zomboid mods with multi-level logging support, child loggers, and configurable sandbox options.",
-            "versionMin": "42.13.1"
-        },
-        "zul_test": {
-            "name": "zul_test",
-            "description": ""
-        },
-        "zul_test_guardrails": {
-            "name": "zul_test_guardrails",
-            "description": ""
-        },
-        "zul_test_performance": {
-            "name": "zul_test_performance",
-            "description": ""
-        }
+    "zul_test": {
+      "name": "zul_test",
+      "description": ""
+    },
+    "zul_test_guardrails": {
+      "name": "zul_test_guardrails",
+      "description": ""
+    },
+    "zul_test_performance": {
+      "name": "zul_test_performance",
+      "description": ""
     }
+  }
 }

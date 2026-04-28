@@ -1,14 +1,12 @@
+.libraries/*
+!.libraries
 
-.docs
-.guides
-.serena
-.libraries
-.tmp
-.logs
-
-Logs/
-tmp/
 node_modules/
+.development
+
+.tmp
+.template-mod
+.template-language
 
 luac.out
 
